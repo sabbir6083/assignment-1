@@ -86,6 +86,8 @@ margin-top: 25px;
 }
 .feature-flowers-heading{
     text-align: center;
+    width: 500px;
+    margin: auto;
     
 }
 .section-heading{
@@ -104,6 +106,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 margin-top: 15px;
+
 }
 
 .feautre-flowers-box{
@@ -164,6 +167,7 @@ margin-top: 15px;
 .hot-deal-content{
     display: flex;
     padding: 50px;
+    margin-left: 27px;
 }
 
 .hot-deal-left-side{
@@ -197,5 +201,53 @@ margin-top: 15px;
 
 .hot-deal-right-side{
     width: 40%;
-    margin-left: 50px;
+    margin-left: 80px;
+}
+
+/* instragram img section */
+
+.instragram{
+    margin-top: 80px;
+}
+
+.instragram-heading {
+    width: 500px;
+    margin: auto;
+}
+
+.instragram-img-box{
+    display: flex;
+    margin-top: 50px;
+}
+
+.instragram-img{
+    height: 100%;
+    width: auto;
+}
+
+.img-box-1{
+    width: 23%;
+    
+}
+
+.img-box-2{
+  
+    width: 23%;
+    margin-left: 1%;
+}
+
+.img-box-3{
+    width: 23%;
+    margin-left: 1%;
+}
+
+.img-box-4{
+    width: 23%;
+    margin-left: 1%;
+}
+
+.instragram-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
