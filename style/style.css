@@ -80,6 +80,76 @@ margin-top: 25px;
 }
 
 /* features flowers area */
-.section-heading{
+
+.feature-flowsers{
+    margin-top: 50px;
+}
+.feature-flowers-heading{
+    text-align: center;
     
+}
+.section-heading{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+
+}
+
+.section-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 15px;
+}
+
+.feautre-flowers-box{
+    display: flex;
+    margin-top: 35px;
+}
+
+.flowers-box-1 {
+    width: 380px;
+    height: 350px;
+    background:#f2dee7;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    
+}
+
+.flowers-box-2{
+    width: 380px;
+    height: 350px;
+    background:#d9eff0;
+    margin-left: 20px;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+
+}
+
+.flowers-box-3{
+    width: 380px;
+    height: 350px;
+    background:#e3ebdb;
+    margin-left: 20px;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+}
+
+.feature-img {
+    height: 85%;
+    margin-top: 51px;
+}
+
+.caption-img {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 15px;
 }
