@@ -4,7 +4,69 @@
     padding: 0;
 }
 
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 .container{
     max-width: 1140px;
     margin: auto;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+/* Main css start */
+
+.banner{
+    height: 648px;
+    background:rgba(229, 84, 115, 0.10);
+
+}
+
+.banner-content{
+    display: flex;
+}
+
+
+.banner-text-side {
+    width: 55%;
+    margin-top: 76px;
+}
+
+.banner-btn{
+    margin-top: 25px;
+}
+
+.banner-text{
+    color: #272727;
+    font-size: 71px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.banner-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 25px;
+}
+
+.banner-img-side{
+    width: 40%;
+}
+
+.banner-img-side img {
+    height: 73%;
+    margin-top: 35px;
+    margin-left: 60px;
 }
