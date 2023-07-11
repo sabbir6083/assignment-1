@@ -74,6 +74,10 @@ line-height: 30px;
     font-weight: 600;
 }
 
+.header-menu li a:hover{
+    color: #ddd;
+}
+
 .header-logo {
     color: black;
     text-align: center;
