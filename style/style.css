@@ -226,23 +226,23 @@ margin-top: 15px;
 }
 
 .img-box-1{
-    width: 23%;
+    width: 24%;
     
 }
 
 .img-box-2{
   
-    width: 23%;
+    width: 24%;
     margin-left: 1%;
 }
 
 .img-box-3{
-    width: 23%;
+    width: 24%;
     margin-left: 1%;
 }
 
 .img-box-4{
-    width: 23%;
+    width: 25%;
     margin-left: 1%;
 }
 
@@ -251,3 +251,52 @@ margin-top: 15px;
     height: 100%;
     object-fit: cover;
 }
+
+/* subscribe form area */
+
+.subscribe-container{
+    height: 300px;
+    width: 100%;
+    background: url(https://raw.githubusercontent.com/sabbir6083/assignment-1/main/images/Rectangle%209.png)no-repeat center center;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.mid-content {
+    margin-top: 60px;
+}
+
+.sub-form{
+    width: 862px;
+    margin: auto;
+    text-align: end;
+    margin-top: 20px;
+}
+
+input#e-mail {
+    padding: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 670px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 6px 21px;
+}
+
+
+input[type="submit"] {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 25px 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
