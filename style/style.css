@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .primary-btn {
     border-radius: 8px;
     background: #E55473;
@@ -34,9 +42,52 @@ line-height: 30px;
 
 /* Main css start */
 
+/* header section */
+
+.header-section{
+    background: #e55473d4;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+}
+
+.header-menu li{
+
+}
+
+.header-menu li a {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-logo {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* Banner-section */
+
 .banner{
     height: 648px;
     background:rgba(229, 84, 115, 0.10);
+    padding: 100px 0px;
+    
 
 }
 
@@ -316,14 +367,14 @@ input[type="submit"] {
 
 }
 
-.footer-heading{
+.logo-heading{
     text-align: center;
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
 }
 
-#footer-span{
+.logo-span{
     color: #FFF;
 }
 
