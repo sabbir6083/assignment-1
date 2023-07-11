@@ -218,6 +218,7 @@ margin-top: 15px;
 .instragram-img-box{
     display: flex;
     margin-top: 50px;
+    justify-content: space-around;
 }
 
 .instragram-img{
@@ -226,23 +227,23 @@ margin-top: 15px;
 }
 
 .img-box-1{
-    width: 24%;
+   
     
 }
 
 .img-box-2{
   
-    width: 24%;
+    
     margin-left: 1%;
 }
 
 .img-box-3{
-    width: 24%;
+    
     margin-left: 1%;
 }
 
 .img-box-4{
-    width: 25%;
+    
     margin-left: 1%;
 }
 
@@ -251,6 +252,7 @@ margin-top: 15px;
     height: 100%;
     object-fit: cover;
 }
+
 
 /* subscribe form area */
 
@@ -300,3 +302,40 @@ input[type="submit"] {
     margin-left: 5px;
 }
 
+/* footer section */
+
+.footer-section{
+    margin-top: 100px;
+    background: #111010;
+}
+
+.footer-content{
+    width: 500px;
+    margin: auto;
+    padding: 80px;
+
+}
+
+.footer-heading{
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#footer-span{
+    color: #FFF;
+}
+
+.footer-description{
+    color:#fff;
+    
+}
+
+.copyright-text{
+    margin-top: 20px;
+    color: #676965;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
